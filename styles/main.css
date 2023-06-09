@@ -1,0 +1,99 @@
+@import url(./styles.css);
+body {
+  text-align: center;
+}
+
+body {
+  padding-inline: 1.3rem;
+  padding-block: 4.5rem;
+  background-color: var(--white);
+  background-image: url(../images/bg-pattern-top-mobile.svg),
+    url(../images/bg-pattern-bottom-desktop.svg);
+  filter: invert(360deg);
+  background-position: left -15vw top 0vh, left -150vw bottom 0;
+  background-repeat: no-repeat, no-repeat;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  /* margin-block-end: 2rem; */
+  letter-spacing: -0.05rem;
+  color: var(--very-dark-magenta);
+}
+
+header p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-block-start: 1.5rem;
+  color: var(--dark-grayish-magenta);
+}
+aside {
+  margin-block: 3rem;
+}
+aside ul p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+aside ul li span {
+  display: block;
+}
+aside ul li span > * {
+  margin-block-end: 0.5rem;
+  margin-inline: 0.2rem;
+}
+aside ul li {
+  background-color: var(--light-grayish-magenta);
+  font-weight: 700;
+  margin-block-end: 1rem;
+  border-radius: 8px;
+  padding-block: 1rem;
+  color: var(--very-dark-magenta);
+}
+article {
+  margin-block: 1.2rem;
+  padding: 2.4rem;
+  background-color: var(--very-dark-magenta);
+  border-radius: 8px;
+}
+article div {
+  display: flex;
+  align-items: center;
+  margin-block-end: 1.2rem;
+}
+article div img {
+  border-radius: 50%;
+  width: 2.5rem;
+  margin-inline-end: 1.2rem;
+}
+article div h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  align-items: start;
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
+  color: var(--white);
+}
+
+article div h2 span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--soft-pink);
+}
+article p {
+  font-weight: 300;
+  line-height: 1.5rem;
+  text-align: start;
+  color: var(--white);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
